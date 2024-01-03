@@ -1,0 +1,111 @@
+/* Main Container */
+.MainSection {
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    margin-top: 0.2cm;
+    background-image: url("../images/mainBackground.png");
+    justify-content: center;
+}
+
+/* Section 1 of Main Container */
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 30%;
+    margin-top: 2cm;
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+.outerIconContainer {
+    display: flex;
+    height: 1.2cm;
+    width: 100%;
+    justify-content: left;
+}
+.innerIconContainer {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons {
+    width: 1.2cm;
+    height: 100%;
+}
+.Section1 .text {
+    font-weight: lighter;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: left;
+    height: 1.5cm;
+    width: 100%;
+}
+.DownlaodButton {
+    cursor: pointer;
+    background-color: #1CC29F;
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+    border-radius: 5px;
+    border: 0 solid;
+    padding: 0.5cm 1.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}.DownlaodButton:hover, .DownlaodButton:active {
+    box-shadow: none;
+    margin-top: 0.1cm;
+}
+.logoText {
+    width: 100%;
+}
+.logos{
+    height: 0.4cm;
+    width: 0.4cm;
+}
+
+/* Section 2 of Main Container */
+.Section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 1.5cm;
+    margin-bottom: 0.5cm;
+}
+.Section2 img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1000px) {
+    .MainSection {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .Section1 {
+        width: 80%;
+        align-self: center;
+    }
+    .title, .text, .logoText {
+        text-align: center;
+    }
+    .outerIconContainer, .buttonContainer {
+        justify-content: center;
+    }
+    .Section2 {
+        width: 65%;
+        margin-top: 0.5cm;
+    }
+}

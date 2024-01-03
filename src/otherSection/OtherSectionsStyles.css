@@ -1,0 +1,181 @@
+
+/* Secondary Container */
+.SecondarySection {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+.SS-Section1 {
+    background-color: #373737;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+.SS-Section2 {
+    background-color: #1CC29F;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+.SS-title {
+    margin-top: 1cm;
+    font-size: 25px;
+}
+.SS-text {
+    width: 7cm;
+    text-align: center;
+    margin: 0cm;
+}
+
+/* Tertiary Container */
+.TertiarySection {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+.TS-Section1 {
+    background-color: #f16b36;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+.TS-Section2 {
+    background-color: #373737;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+.TS-title {
+    margin-top: 1cm;
+    font-size: 25px;
+}
+.TS-text {
+    width: 7cm;
+    text-align: center;
+    margin: 0cm;
+}
+
+/* Phone Image and its Container in Sec. and Ter. Section */
+.phoneContainer {
+    height: 75.3%;
+    width: 8cm;
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phoneImage {
+    height: 100%;
+    width: 100%;
+}
+
+/* Quaternary Container */
+.QuaternarySection {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+.QS-Section1 {
+    background-color: #854bf1;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.QS-Section2 {
+    background-color: #854bf1;
+    background-image: url("../images/otherBackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.QS-title {
+    margin-top: 1cm;
+    font-size: 25px;
+}
+.QS-text {
+    font-size: 17px;
+    width: 10cm;
+    text-align: center;
+}
+.QS-phoneContainer {
+    height: 75.3%;
+    width: 8cm;
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QS-phoneImage {
+    height: 100%;
+    width: 100%;
+}
+.QS-buttonContainer {
+    display: flex;
+    justify-content: center;
+    height: 1.5cm;
+    width: 100%;
+}
+.QS-SignupButton {
+    cursor: pointer;
+    background-color: #0000002f;
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 0.4cm 1.1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.QS-SignupButton:hover, .QS-SignupButton:active {
+    box-shadow: none;
+    margin-top: 0.05cm;
+}
+
+/* Media Query */
+@media only screen and (max-width: 900px) {
+    .SecondarySection, .TertiarySection {
+        flex-direction: column;
+        height: auto;
+    } 
+}
+
+@media only screen and (max-width: 800px) {
+    .QuaternarySection {
+        flex-direction: column;
+        height: auto;
+    } 
+}

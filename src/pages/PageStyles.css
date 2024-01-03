@@ -1,0 +1,251 @@
+/* Home Footer Picture */
+.FooterPictureContainer {
+    width: 100%;
+    height: 4cm;
+    display: flex;
+    justify-content: center;
+}
+.FPC-Picture {
+    height: 100%;
+    width: 100%;
+}
+
+/* Login Page Styles  &  Sign up Page Styles */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 13cm;
+    height: 10cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1cm;
+}
+
+#email, #password, #name {
+    padding: 0.3cm 7cm 0.3cm 0.2cm;
+    font-size: 15px;
+}
+
+#submit {
+    background-color: rgb(255, 255, 255);
+    color: #5c9210;;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Dashboard Page Styles - Navbar */
+.NavbarContainer2 {
+    background-color: #1CC29F;
+    color: #000000;
+    width: 100%;
+    height: 1cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 0.6cm 10%;
+    flex: 1;
+}
+.LeftSection2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 2cm;
+}.RightSection2 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 2cm;
+}
+.Logo2 {
+    height: 40px;
+    width: 150px;
+    background-color: #1CC29F;
+}
+
+/* DPS - Navigation links */
+.LogoutButton {
+    cursor: pointer;
+    background-color: #1CC29F;
+    color: #ffffff;
+    border: 0 solid;
+    padding: 0.7rem 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* DPS - Main */
+.DashboardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+}
+.DC-Section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: 100%;
+    width: 4cm;
+    margin-top: 0.5cm;
+}
+.DC-Section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+.DC-Section2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashboardButton, .recentActivityButton {
+    padding: 2px 5px 2px 5px;
+    border: none;
+    margin: 0px 15px 0px 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #6e6e6e;
+    font-size: 15px;
+    text-align: left;
+}
+.dashboardButton:hover, .dashboardButton:active, .recentActivityButton:hover, .recentActivityButton:active {
+    background-color: #d3d3d3;
+}
+.dashboardButton:focus, .recentActivityButton:focus {
+    margin: 0px 15px 0px 0px;;
+    border-left: 5px solid #1CC29F;
+    font-weight: bold;
+    color: #1CC29F;
+}
+
+.recentActivityContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.userBalancesContainer {
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.uBC-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    background-color: #e1e1e1;
+    color: #9e9e9e;
+    border: 1px solid #bdbdbd;
+}
+
+.userBalancesContainer2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.uBC2-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    color: #6e6e6e;
+    border: 1px solid #bdbdbd;
+}
+.input-items, #description, #totalAmount, #currentUserAmount {
+    padding: 0.1cm;
+    margin: 0.1cm;
+}
+
+.addButton, .removeButton {
+    cursor: pointer;
+    background-color: #1CC29F;
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+    border-radius: 5px;
+    border: 0 solid;
+    padding: 0.6rem 1.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0.3cm 0cm 0cm 0cm;
+}.addButton:hover, .removeButton:hover, .addButton:active, .removeButton:active {
+    box-shadow: none;
+    margin-top: 0.25cm;
+}
+
+.removeButton {
+    padding: 0.7rem 1.00rem;
+    background-color: #c21c1c;
+    margin-bottom: 0.3cm;
+}
+
+#submitButton {
+    cursor: pointer;
+    background-color: #b1b1b1;
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+    border-radius: 5px;
+    border: 0 solid;
+    padding: 0.6rem 1.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0.3cm 0cm 0cm 0cm;
+}#submitButton:hover, #submitButton:hover {
+    box-shadow: none;
+    margin-top: 0.25cm;
+}
+
+
+
+
+
+
+
+
+
+
+
