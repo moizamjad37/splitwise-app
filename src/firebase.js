@@ -4,12 +4,13 @@ import "firebase/compat/firestore";
 import { addDoc, collection, getDocs } from "firebase/firestore";
 
 const firebaseConfig = ({
-  apiKey: "AIzaSyBDqimXQigkdBXL_ZfbtvXPN_e47EIKdgk",
-  authDomain: "splitwise-app-dde75.firebaseapp.com",
-  projectId: "splitwise-app-dde75",
-  storageBucket: "splitwise-app-dde75.appspot.com",
-  messagingSenderId: "603756434886",
-  appId: "1:603756434886:web:dfc40415247f53aa11cec7"
+  apiKey: "AIzaSyBzqkavVz9rTfGdFfC7an5g_owfoEOfEXo",
+  authDomain: "splitwise-app-66fd6.firebaseapp.com",
+  projectId: "splitwise-app-66fd6",
+  storageBucket: "splitwise-app-66fd6.appspot.com",
+  messagingSenderId: "136243333293",
+  appId: "1:136243333293:web:a588fda782f511d093de24",
+  measurementId: "G-QK8ZJ0DX1N"
 });
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
