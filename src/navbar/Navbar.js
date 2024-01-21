@@ -9,7 +9,7 @@ export const Navbar = () => {
         <header className="Navbar">
             <div className="LeftSection">
                 <Link to="/">
-                <img className="Logo" href="/" src={logo}></img>
+                <img className="Logo" href="/" src={logo} alt="Splitwise Logo"></img>
                 </Link>
             </div >
             <div className="RightSection">

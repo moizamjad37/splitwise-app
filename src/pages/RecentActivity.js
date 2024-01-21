@@ -19,7 +19,7 @@ export const RecentActivity = () => {
         try {
             await logout();
             navigate("/")
-        } catch {setError("Failed to log out")}}
+        } catch {setError("Failed to log out");}}
   
 
         const [totalOwedToMe, setTotalOwedToMe] = useState(0);
@@ -60,7 +60,7 @@ export const RecentActivity = () => {
         await db.collection("users").get()
         .then(parentQuerySnapshot => {
             parentQuerySnapshot.forEach(async(parentDoc) => {
-            const parentData = parentDoc.data();
+            // const parentData = parentDoc.data();
             const subcollectionRef = parentDoc.ref.collection('expenses'); // Replace 'subcollectionName' with your subcollection name
             console.log("2 await")
 
@@ -102,7 +102,7 @@ export const RecentActivity = () => {
         <header className="Navbar2">
             <div className="LeftSection2">
                 <Link to="/dashboard">
-                <img className="Logo2" href="/" src={logo2}></img>
+                <img className="Logo2" href="/" src={logo2} alt="Splitwise Logo"></img>
                 </Link>
             </div >
             <div className="RightSection2">
