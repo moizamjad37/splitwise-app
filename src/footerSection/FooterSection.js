@@ -49,8 +49,11 @@ export const FooterSection = () => {
 
         <div className="FCo-Section2">
             
-            <a className="btn btn-google" href="#" title="Google Play">Google Play</a>
-            <a href="/" tabIndex="0"><img class="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="bn45"/></a>
+            <div className="FCo-buttonContainer">
+                <a className="btn btn-google" href="#" title="Google Play">Google Play</a>
+                <a href="/" tabIndex="0"><img class="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="bn45"/></a>
+            </div>
+            <p className='disclaimer-text'>Disclaimer: This is just an attempt to replicate the original Splitwise App for practise. This is in no way an attempt to replace or rival it.</p>            
             
         </div>
     </div>

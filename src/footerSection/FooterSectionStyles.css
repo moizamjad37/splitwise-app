@@ -14,6 +14,15 @@
     width: 50%;
 }
 
+.FCo-Section2 {
+    flex-direction: column;
+}
+.disclaimer-text {
+    font-size: 0.5rem;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
 /* Section 1 - Part 1, 2, and 3 */
 .FCo-S1-P1, .FCo-S1-P2, .FCo-S1-P3 {
     display: flex;
@@ -54,7 +63,12 @@
     padding-top: 0.1cm;
 }
 
+
 /* Icons  */
+.FCo-buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
 .FCo-IconsContainer {
     display: flex;
     justify-content: space-evenly;
@@ -67,6 +81,7 @@
     height: 100%;
     width: 0.7cm;   
 }
+
 
 /* Play Store Button */
 @font-face{font-family:"fontfutura";src:url("https://cdn.rawgit.com/KompiAjaib/font/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
@@ -85,6 +100,7 @@ a.btn-google{color:#fff}
 .bn46 {
     width: 150px;
     height: 45px;
+    margin-top: 0.1cm;
 }
 
 /* Media Query */
